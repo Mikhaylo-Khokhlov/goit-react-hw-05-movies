@@ -1,0 +1,30 @@
+header {
+  background-color: #b8b7b3;
+
+  min-height: 10vh;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navigation__link {
+  display: block;
+  margin-right: 45px;
+  padding: 20px 0;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  text-decoration: none;
+}
